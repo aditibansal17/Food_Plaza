@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!--        css stylesheet-->
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="sheet.css">
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+		<!--        font awesome-->
+		<script src="https://kit.fontawesome.com/cdad65c924.js" crossorigin="anonymous"></script>
+
+		<title>RESERVATION</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+			<a class="navbar-brand" href="/">FOOD PLAZA</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="/">HOME</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/menu">MENU</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/gallery">GALLERY</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/contact">CONTACT</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/reservation">RESERVATION</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="/login">LOGIN</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!--		<h1>ADIRU RESTAURANT</h1>-->
+
+
+
+
+		<section id="reservation">
+
+
+			<div>
+				<h1 class="reservation-heading">RESERVATION</h1>
+			</div>
+
+
+
+
+			<!--
+<div class="reservation-subheading">
+<h2>Reserve Your Table Now</h2>
+</div>
+-->
+
+
+			<div class="form">
+				<div class="container box">
+
+
+
+					<h2 class="reservation-subheading">Reserve Your Table Now</h2>
+					<form class="reservation-form" action="/successfull" method="post" >
+
+						<!--						<label>Name</label>-->
+
+
+						<input class="form-item" type="text" name="name" value="" placeholder="Name" required>
+
+
+						<!--						<label>Contact Number</label>-->
+
+						<input class="form-item" type="number" name="contact" value="" placeholder="Contact Number" required>
+
+
+						<br>
+						<!--						<label>Email Address</label>-->
+						<input class="form-item" type="email" name="email" value="" placeholder="Email Address" required>
+						<!--						<label>Number of Person</label>-->
+						<input class="form-item" type="number" name="pnumber" value="" placeholder="Number of Persons" required>
+						<br>
+						<!--
+<span>
+<input type="text" name="" placeholder="book date">
+<i class="fa fa-calendar" aria-hidden="true">
+::before
+
+</i>
+
+</span>
+-->
+						<label style="color:white;">Book Date</label>
+<!--						<span style="color:white;">book date</span>-->
+						<input class="form-item" type="date" name="date" value="" placeholder="Book Date" required>
+					
+						<label style="color:white;">Your Time</label>
+						<input class="form-item" type="time" name="time" value=""  placeholder="Your Time" required>
+						<br>
+						<!--						<label>Message of Request</label>-->
+						<textarea class="form-item" name="special" rows="5" cols="50" placeholder="Any special decoration or demand"></textarea>
+						<br>
+
+						<label class="reservation-buttton"><button  class="btn btn-light" type="submit">BOOK NOW</button></label>   
+
+
+
+					</form>
+				</div>
+			</div>
+
+
+
+
+
+
+		</section>
+
+
+
+
+		<footer id="footer">
+
+			<i class="social-icon fab fa-twitter"></i>
+			<i class="social-icon fab fa-facebook-f"></i>
+			<i class="social-icon fab fa-instagram"></i>
+			<i class="social-icon fas fa-envelope"></i>
+			<p>© Copyright 1990 FOOD PLAZA</p>
+
+		</footer>
+
+	</body>
+</html>

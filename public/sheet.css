@@ -1,0 +1,476 @@
+body
+{
+	background-color: #fff;
+}
+/*GALLERY*/
+.gallery-img
+{
+	height: 85%;
+	width: 85%;
+	margin-bottom: 0%;
+/*	padding-left: 60px;*/
+	text-align: center;
+}
+.gallery-heading
+{
+	text-align: center;
+	font-size: 3rem;
+	padding: 70px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*MENU*/
+.menu
+{
+	border-bottom: 1px solid;
+	line-height: 0.1rem;
+}
+.menu-top
+{
+	/*    background-color: #fff;*/
+	/*    background-image: url(https://www.foodiesfeed.com/wp-content/uploads/2019/05/red-fruit-and-vegetables-on-a-white-background-3.jpg);*/
+	/*    background-image: url(https://previews.123rf.com/images/nadianb/nadianb1801/nadianb180100097/93275272-superfoods-on-white-background-organic-food-and-healthy-vegan-food-legumes-nuts-seeds-greens-oil-and.jpg);*/
+	/*background-image:url(https://images.unsplash.com/photo-1495195134817-aeb325a55b65?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80);*/
+	background-image:url(https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1047&q=80);
+	/*    background-image:url();*/
+	/*    background-image:url();*/
+	/*    background-image:url();*/
+	background-size: cover ;
+	/*    background: url(https://lh3.googleusercontent.com/wdUvmhmr-UZy0dZ6M4Bzvz0C8EwCYlJniT3eBxauBVpV-TVFEu_1kgfag0hCFimizdg2jLm1yuqz8rJBub4GaeS9XCQ=w800) left no-repeat , url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRiIJ4A7_UPGFqcW5d10vQ9Zjkd4KHaTTsMVQ&usqp=CAU) center no-repeat;*/
+}
+.menu-heading
+{
+	text-align: center;
+	font-size: 3rem;
+	padding: 100px;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+}
+#menu
+{
+	text-align: center;
+
+}
+#menu h1
+{
+	margin:20px auto 40px;
+	font-family: 'Ubuntu', sans-serif;
+	line-height:3.5rem;
+}
+hr
+{
+	width: 20%;
+
+}
+.starters
+{
+	background-color: #1a1a2e;
+	color: #d6e0f0;
+	padding: 100px;
+	/*   background-image: url(https://images.unsplash.com/photo-1549896443-e6d347606bf2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80);*/
+	background-image: url(https://images.unsplash.com/photo-1585849166139-ac4330378465?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+	background-size: cover;
+}
+.lunch
+{
+	background-color: #1a1a2e;
+	color: #d6e0f0;
+	padding: 90px;
+	background-image: url(https://images.unsplash.com/photo-1565556250012-7940d6d6cf41?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEwMDQ0N30&auto=format&fit=crop&w=1050&q=80);
+	background-size: cover;
+}
+.dessert
+{
+	background-color: #1a1a2e;
+	color: #d6e0f0;
+	padding: 90px;
+	/*    background-image: url(https://images.unsplash.com/photo-1570099588423-bdaf355b8c59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1868&q=80);*/
+	background-image: url(https://image.freepik.com/free-photo/ice-cream-scoops-bowl-mixed-ice-cream-ice-cream-cup-black-background_64762-40.jpg); 
+	background-size: cover;
+}
+.smacky-bites
+{
+	padding: 100px;
+	background-color: #f1f3f8;
+	background-image: url(https://cdn.pixabay.com/photo/2014/12/22/12/22/food-577224_1280.jpg);
+	background-size: cover;
+}
+.drinks
+{
+	padding: 100px;
+	background-color: #f1f3f8;
+	/*    background-image: url(https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/beveragedaily.com/article/2020/01/02/2020-trends-to-watch-in-us-beverage/10484034-2-eng-GB/2020-trends-to-watch-in-US-beverage_wrbm_large.jpg);*/
+	/*    background-image: url(https://images.unsplash.com/photo-1496318447583-f524534e9ce1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1105&q=80);*/
+	background-image: url(https://images.unsplash.com/photo-1551024709-8f23befc6f87?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1125&q=80);
+	background-size: cover;
+}
+
+
+.item
+{
+	background-color: #d8d3cd;
+	color: black;
+	/*    font-family: 'Grandstander', cursive;*/
+	font-family: 'Handlee', cursive;
+}
+span
+{
+	color: black;
+	font-size: 1.5rem;
+	/*    font-family: 'Kalam', cursive;*/
+	font-family: 'Josefin Slab', serif;
+}
+
+.cards-space
+{
+	margin: 70px 80px;
+	padding: 50px;
+}
+. column
+{
+	padding: 70px;
+}
+#contact
+{
+	text-align: center;
+}
+.contact-heading
+{
+	text-align: center;
+	font-size: 3rem;
+	padding: 10%;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	background-image:url(https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1047&q=80);
+	/*    background-image: url(http://www.revenuevision.com/wp-content/uploads/2018/05/appetizer-dark-delicious-326279-1024x683.jpg);*/
+	/*    background-image: url(https://i.pinimg.com/originals/59/44/55/594455ac38f0a40230f18d0a126884dd.jpg);*/
+	/*    background-image: url(https://images.unsplash.com/photo-1596524430615-b46475ddff6e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);*/
+	background-size: 100%;
+	font-size: 4rem;
+}
+.contact-subheading
+{
+	padding:  7% 15%;
+	background-color: #aaaaaa;
+	/*     background-color: #f1f3f8;*/
+	line-height: 2rem;
+
+}
+.contact-subheading h1
+{
+	color: black;
+	font-family: 'Grandstander', cursive;
+}
+}
+.contact-subheading p
+{
+	/*    color:#838383; */
+	color: black;
+	margin-left: 40px;
+	margin-right: 40px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.contact-subheading span
+{
+	color: #625261;
+	font-size: 20px;
+}
+.contact-icons
+{
+	padding: 7% 15%;
+	/*    background-color: #838383;*/
+	background-color: #f4f4f4;
+	color: #838383;
+
+}
+.contact-icons h4
+{
+	font-weight: 700; 
+	color: black;
+	font-family: 'Grandstander', cursive;
+}
+.icon
+{
+	margin-bottom: 1rem;
+}
+.contact-column
+{
+	padding: 5%;
+}
+
+/*FOOTER*/
+
+#footer
+{
+	text-align: center;
+	padding: 7% 15%;
+	font-family:inherit;
+
+}
+.social-icon
+{
+	margin: 20px 10px;
+}
+/*RESERVATION*/
+.reservation-heading
+{
+
+	text-align: center;
+	font-size: 4rem;
+	padding: 10%;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	background-image:url(https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1047&q=80);
+	background-size: 100%;
+	/*    font-size: 4rem;*/
+}
+.reservation-subheading
+{
+	padding:  7% 15%;
+	line-height: 2rem;
+
+	font-size: 2rem;
+	color: white;
+	font-family: 'Grandstander', cursive;
+}
+.reservation-subheading h2
+{
+	font-size: 2rem;
+	color: black;
+	font-family: 'Grandstander', cursive;
+	text-align: center;
+}
+.form-item
+{
+	padding: 12px 20px;
+	border-radius: 8px;
+	font-size: 16px;
+	background-color: #fff;
+	color:black;
+}
+.form
+{
+	padding:  7% 15%;
+	background-color: #aaaaaa;
+	background-image: url(https://raw.githubusercontent.com/luisSuela/Stranger-Code/master/foodd.jpg);
+
+	background-repeat: no-repeat;
+	background-size: 100% 99%;
+	line-height: 2rem;
+}
+.box
+{
+	width: 65%;
+	height: 50%;
+	background-color: black;
+	opacity: 0.9;
+	padding: 7%;
+	position: relative;
+	right:100px;
+}
+.reservation-button
+{
+	padding: 50%;
+
+}
+
+
+
+/*HOME PAGE*/
+
+/*TESTIMONIAL SECTION*/
+#testimonials
+{
+
+/*	background-color: darkgray;*/
+	background-color:#4c4c4c;
+	color: #fff;
+}
+#testimonials h1
+{
+	text-align: center;
+	padding-top: 40px;
+	font-family: 'Merriweather', serif;
+}
+.testimonial-text
+{
+
+	line-height: 1.5;
+	font-size: 1rem;
+	/*     font-family: 'Grandstander', cursive;  */
+	font-family: 'Ubuntu', sans-serif;
+	padding: 20px 20px 20px;
+}
+.review-column
+{
+	border: 2px solid black;
+	background-color: white;
+	color: black;
+	text-align: center;.
+	/*    height: 50%;*/
+	/*    width: 50%;*/
+
+}
+.testimonial-image
+{
+	width: 20%;
+	border: 2px solid black;
+	border-radius: 100%;
+	margin: 10px;
+}
+.testimonial-column
+{
+	padding: 70px;
+}
+
+/*ABOUT US*/
+#home
+{
+	text-align: center;
+}
+
+.home-heading
+{
+	text-align: center;
+	font-size: 3rem;
+	padding: 10%;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	background-image:url(https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1047&q=80);
+	background-size: 100%;
+	font-size: 4rem;
+}
+.home-subheading
+{
+	padding:  7% 15%;
+	background-color: #aaaaaa;
+	background-image: url(https://raw.githubusercontent.com/luisSuela/Stranger-Code/master/foodd.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 99%;
+	line-height: 2rem;
+}
+
+.wd
+{
+	width: 45%;
+	height: 50%;
+	background-color: black;
+	opacity: 0.9;
+	padding: 7%;
+	position: relative;
+	right:100px;
+}
+
+.wd h1
+{
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 100px;
+	font-family: sans-serif;
+	font-weight: 700;
+}
+
+.wd h4
+{
+	text-align: justify;
+	color:white;
+	font-weight: normal;
+	line-height: 2rem;
+	font-family: sans-serif;
+}
+
+.wd h3
+{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin: 40px auto;
+	color: white;
+}
+
+/*CHEF NAMES*/
+
+#team
+{
+	background-color: #fff;
+	text-align: center;
+}
+/*
+.team-carousel .slick-prev,
+.team-carousel .slick-next {
+display: none !important;
+}
+*/
+.team-carousel li {
+	float: left;
+	width: 25%;
+	margin: 0 15px;
+	position: relative;
+	left:55px;
+}
+.team-carousel li > div {
+	/border: 1px solid #eaeaea;/
+	text-align: center;
+}
+.team-carousel li > div > img {
+	display: inline-block;
+}
+.team-carousel li > div > div {
+	background: #fafafa;
+	padding: 35px 15px;
+
+	min-height: 202px;
+}
+.team-carousel li > div > div span {
+	font-style: italic;
+	display: block;
+	text-align: center;
+	margin-bottom: 10px;
+	color: #cf9b67;
+}
+
+.team-carousel li > div > div div {
+	text-align: center;
+}
+.team-carousel li > div > div div a {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+.team-carousel li > div > div div a:hover i {
+	color: #cf9b67;
+}
+#team
+{
+	background-color: #fff;
+	text-align: center;
+	/*
+	padding-bottom: 05%;
+	padding-top: 05%;
+	*/
+	padding: 7% 15%;
+}
+
+
+/*MEDIA QUERY*/
+@media (max-width: 815px) {
+	.gallery-img 
+	{
+		padding-left: 10%;
+	}
+	.contact-heading
+	{
+		padding-top: 16%;
+	}
+	.reservation-heading
+	{
+		padding-top: 16%;
+		margin: auto;
+	}
+}
+
+
+
+
+
